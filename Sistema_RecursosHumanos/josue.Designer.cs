@@ -56,9 +56,9 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button3.Location = new System.Drawing.Point(313, 225);
+            this.button3.Location = new System.Drawing.Point(290, 224);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(157, 47);
+            this.button3.Size = new System.Drawing.Size(205, 47);
             this.button3.TabIndex = 2;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = false;
