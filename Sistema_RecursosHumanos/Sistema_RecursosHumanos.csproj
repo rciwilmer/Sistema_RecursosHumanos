@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="elton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="elton.Designer.cs">
+      <DependentUpon>elton.cs</DependentUpon>
+    </Compile>
     <Compile Include="josue.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +96,9 @@
     <Compile Include="Smith.Designer.cs">
       <DependentUpon>Smith.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="elton.resx">
+      <DependentUpon>elton.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="josue.resx">
       <DependentUpon>josue.cs</DependentUpon>
     </EmbeddedResource>
