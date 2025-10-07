@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="josue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="josue.Designer.cs">
+      <DependentUpon>josue.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuPrincipalAdministrador.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,9 @@
     <Compile Include="Smith.Designer.cs">
       <DependentUpon>Smith.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="josue.resx">
+      <DependentUpon>josue.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipalAdministrador.resx">
       <DependentUpon>MenuPrincipalAdministrador.cs</DependentUpon>
     </EmbeddedResource>
