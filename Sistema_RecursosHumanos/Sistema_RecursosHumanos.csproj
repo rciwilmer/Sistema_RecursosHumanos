@@ -64,6 +64,12 @@
     <Compile Include="josue.Designer.cs">
       <DependentUpon>josue.cs</DependentUpon>
     </Compile>
+    <Compile Include="Judith.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Judith.Designer.cs">
+      <DependentUpon>Judith.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuPrincipalAdministrador.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +128,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="josue.resx">
       <DependentUpon>josue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Judith.resx">
+      <DependentUpon>Judith.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipalAdministrador.resx">
       <DependentUpon>MenuPrincipalAdministrador.cs</DependentUpon>
